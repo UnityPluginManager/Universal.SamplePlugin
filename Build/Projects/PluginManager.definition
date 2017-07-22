@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ExternalProject Name="PluginManager">
+	<Binary
+		Name="PluginManager"
+		Path="Managed/PluginManager.dll"
+	/>
+</ExternalProject>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="SamplePlugin" Path="Source" Type="Library">
+	<References>
+		<!-- GAC Assemblies -->
+		<Reference Include="System" />
+		<Reference Include="System.Core" />
+
+		<!-- Unity API + Plugin API -->
+		<Reference Include="UnityEngine" />
+        <Reference Include="PluginManager" />
+
+        <!-- 
+            This lets you utilise scripts from the game,
+            instead of being restricted to just the Unity API.
+            Uncomment to load the appropriate assembly.
+
+            (Note: it must be present in the Managed folder!)
+        -->
+
+        <!-- <Reference Include="Assembly-Boo" /> -->
+        <!-- <Reference Include="Assembly-CSharp" /> -->
+        <!-- <Reference Include="Assembly-UnityScript" /> -->
+	</References>
+
+	<!-- The framework version must be v3.5 or lower,
+         because that's the only one supported by all
+         versions of Unity. -->
+	<Properties>
+		<FrameworkVersions>
+			<Platform Name="Windows"><Version>v3.5</Version></Platform>
+			<Platform Name="Linux"><Version>v3.5</Version></Platform>
+			<Platform Name="MacOS"><Version>v3.5</Version></Platform>
+		</FrameworkVersions>
+	</Properties>
+
+	<Files>
+        <Compile Include="*.cs" />
+	</Files>
+</Project>
