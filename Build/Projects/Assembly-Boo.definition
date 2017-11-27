@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<ExternalProject Name="Assembly-Boo">
-    <Binary
-        Name="Assembly-Boo"
-        Path="Managed/Assembly-Boo.dll"
-    />
-</ExternalProject>

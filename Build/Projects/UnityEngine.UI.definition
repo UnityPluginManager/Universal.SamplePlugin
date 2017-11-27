@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<ExternalProject Name="UnityEngine.UI">
-    <Binary
-        Name="UnityEngine.UI"
-        Path="Managed/UnityEngine.UI.dll"
-    />
-</ExternalProject>
